@@ -4,17 +4,13 @@ package main
 import (
 	//"encoding/json"
 	"fmt"
-	"base64Captcha"
+	"github.com/kms9/base64Captcha"
 	"image/color"
 	"log"
 	"net/http"
 	//"os"
 	"text/template"
 )
-
-
-var storeSelf = base64Captcha.DefaultMemStore
-
 
 var issueList = template.Must(template.New("issuelist").Parse(`
 <h1> Test</h1>

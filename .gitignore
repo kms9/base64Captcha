@@ -9,3 +9,4 @@ coverage.*
 *.exe
 _builds/*
 _builds
+/vendor/
